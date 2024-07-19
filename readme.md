@@ -77,17 +77,17 @@ We develop a reinforcement learning rule such as RSTDP (Reward-modulated Spike-T
 We repeat the experiments from the previous activity using this learning rule. We place the obtained results side by side and analyze the learning process and the influence of parameters.
 | **Parameter**              | **Value**              | **Parameter**                | **Value**                  |
 |----------------------------|------------------------|------------------------------|----------------------------|
-| $input\_current$           | $constant\_current-0$  | $output\_current$            | $constant\_current-0$      |
-| $input\_model$             | $LIF$                  | $output\_model$              | $LIF(tau\_m=3|R=10)$       |
-| $input\_size$              | $100$                  | $output\_size$               | $2$                        |
-| $input\_time$              | $5$                    | $rest\_time$                 | $2$                        |
-| $duration\_time$           | $7$                    | $iteration$                  | $14$                       |
-| $positive\_dopamine$       | $0.2$                  | $negative\_dopamine$         | $-0.1$                     |
-| $positive\_learning\_rate$ | $0.001$                | $negative\_learning\_rate$   | $-0.0003$                  |
-| $input\_encoding\_method$  | $poisson$              | $synapse\_model$             | $Fully\_connected$         |
-| $synapse\_J_0$             | $10$                   | $synapse\_weight\_deviation$ | $5.0$                      |
-| $synapse\_current\_tau$    | $1$                    | $learning\_rule$             | $RSTDP$                    |
-| $tau\_input\_trace$        | $10$                   | $tau\_output\_trace$         | $10$                       |
+| $input \; current$           | $constant \; current-0$  | $output \; current$            | $constant \; current-0$      |
+| $input \; model$             | $LIF$                  | $output \; model$              | $LIF(tau \; m=3|R=10)$       |
+| $input \; size$              | $100$                  | $output \; size$               | $2$                        |
+| $input \; time$              | $5$                    | $rest \; time$                 | $2$                        |
+| $duration \; time$           | $7$                    | $iteration$                  | $14$                       |
+| $positive \; dopamine$       | $0.2$                  | $negative \; dopamine$         | $-0.1$                     |
+| $positive \; learning \; rate$ | $0.001$                | $negative \; learning \; rate$   | $-0.0003$                  |
+| $input \; encoding \; method$  | $poisson$              | $synapse \; model$             | $Fully \; connected$         |
+| $synapse \; J_0$             | $10$                   | $synapse \; weight \; deviation$ | $5.0$                      |
+| $synapse \; current \; tau$    | $1$                    | $learning \; rule$             | $RSTDP$                    |
+| $tau \; input \; trace$        | $10$                   | $tau \; output \; trace$         | $10$                       |
 | $normalization$            | $ON$                   |
 
 **Table 1:** Experiment Parameters related to **bellow result**
@@ -97,17 +97,17 @@ We repeat the experiments from the previous activity using this learning rule. W
 
 | **Parameter**              | **Value**              | **Parameter**                | **Value**                  |
 |----------------------------|------------------------|------------------------------|----------------------------|
-| $input\_current$           | $constant\_current-3.0$| $output\_current$            | $constant\_current-1.0$    |
-| $input\_model$             | $LIF$                  | $output\_model$              | $LIF(tau\_m=3|R=10)$       |
-| $input\_size$              | $100$                  | $output\_size$               | $2$                        |
-| $input\_time$              | $50$                   | $rest\_time$                 | $10$                       |
-| $duration\_time$           | $60$                   | $iteration$                  | $1000$                     |
-| $positive\_dopamine$       | $0.06$                 | $negative\_dopamine$         | $-0.06$                    |
-| $positive\_learning\_rate$ | $0.06$                 | $negative\_learning\_rate$   | $-0.1$                     |
-| $input\_encoding\_method$  | $poisson$              | $synapse\_model$             | $Fully\_connected$         |
-| $synapse\_J_0$             | $5$                    | $synapse\_weight\_deviation$ | $2.5$                      |
-| $synapse\_current\_tau$    | $1$                    | $learning\_rule$             | $RSTDP$                    |
-| $tau\_input\_trace$        | $3$                    | $tau\_output\_trace$         | $2$                        |
+| $input \; current$           | $constant \; current-3.0$| $output \; current$            | $constant \; current-1.0$    |
+| $input \; model$             | $LIF$                  | $output \; model$              | $LIF(tau \; m=3|R=10)$       |
+| $input \; size$              | $100$                  | $output \; size$               | $2$                        |
+| $input \; time$              | $50$                   | $rest \; time$                 | $10$                       |
+| $duration \; time$           | $60$                   | $iteration$                  | $1000$                     |
+| $positive \; dopamine$       | $0.06$                 | $negative \; dopamine$         | $-0.06$                    |
+| $positive \; learning \; rate$ | $0.06$                 | $negative \; learning \; rate$   | $-0.1$                     |
+| $input \; encoding \; method$  | $poisson$              | $synapse \; model$             | $Fully \; connected$         |
+| $synapse \; J_0$             | $5$                    | $synapse \; weight \; deviation$ | $2.5$                      |
+| $synapse \; current \; tau$    | $1$                    | $learning \; rule$             | $RSTDP$                    |
+| $tau \; input \; trace$        | $3$                    | $tau \; output \; trace$         | $2$                        |
 | $normalization$            | $ON$                   |                              |                            |
 
 **Table 2:** Experiment Parameters related to **bellow result**
