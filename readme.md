@@ -81,4 +81,8 @@ We repeat the experiments from the previous activity using this learning rule. W
   
   - learning policy is the number of sparks in the input time for each input.
 
+### Conclusion
+
+Despite the fact that the STDP rule itself is not very accurate and can hardly differentiate between inputs, the addition of the dopamine method to this learning rule significantly improved its accuracy, allowing it to learn and distinguish the first input from the second one most of the time with high precision.
+
 For further inquiries or information, please reach out to me at [amiraliamini@ur.ac.ir 📨](mailto:amiraliamini@ur.ac.ir).
