@@ -75,9 +75,45 @@ We develop a reinforcement learning rule such as RSTDP (Reward-modulated Spike-T
 ### Task
 
 We repeat the experiments from the previous activity using this learning rule. We place the obtained results side by side and analyze the learning process and the influence of parameters.
+| **Parameter**              | **Value**              | **Parameter**                | **Value**                  |
+|----------------------------|------------------------|------------------------------|----------------------------|
+| $input\_current$           | $constant\_current-0$  | $output\_current$            | $constant\_current-0$      |
+| $input\_model$             | $LIF$                  | $output\_model$              | $LIF(tau\_m=3|R=10)$       |
+| $input\_size$              | $100$                  | $output\_size$               | $2$                        |
+| $input\_time$              | $5$                    | $rest\_time$                 | $2$                        |
+| $duration\_time$           | $7$                    | $iteration$                  | $14$                       |
+| $positive\_dopamine$       | $0.2$                  | $negative\_dopamine$         | $-0.1$                     |
+| $positive\_learning\_rate$ | $0.001$                | $negative\_learning\_rate$   | $-0.0003$                  |
+| $input\_encoding\_method$  | $poisson$              | $synapse\_model$             | $Fully\_connected$         |
+| $synapse\_J_0$             | $10$                   | $synapse\_weight\_deviation$ | $5.0$                      |
+| $synapse\_current\_tau$    | $1$                    | $learning\_rule$             | $RSTDP$                    |
+| $tau\_input\_trace$        | $10$                   | $tau\_output\_trace$         | $10$                       |
+| $normalization$            | $ON$                   |
+
+**Table 1:** Experiment Parameters related to **bellow result**
 
 - Train:![RSTDP](./someResults/RSTDP.png)
 - Test:![RSTDPResult](./someResults/RSTDPResult.png)
+
+| **Parameter**              | **Value**              | **Parameter**                | **Value**                  |
+|----------------------------|------------------------|------------------------------|----------------------------|
+| $input\_current$           | $constant\_current-3.0$| $output\_current$            | $constant\_current-1.0$    |
+| $input\_model$             | $LIF$                  | $output\_model$              | $LIF(tau\_m=3|R=10)$       |
+| $input\_size$              | $100$                  | $output\_size$               | $2$                        |
+| $input\_time$              | $50$                   | $rest\_time$                 | $10$                       |
+| $duration\_time$           | $60$                   | $iteration$                  | $1000$                     |
+| $positive\_dopamine$       | $0.06$                 | $negative\_dopamine$         | $-0.06$                    |
+| $positive\_learning\_rate$ | $0.06$                 | $negative\_learning\_rate$   | $-0.1$                     |
+| $input\_encoding\_method$  | $poisson$              | $synapse\_model$             | $Fully\_connected$         |
+| $synapse\_J_0$             | $5$                    | $synapse\_weight\_deviation$ | $2.5$                      |
+| $synapse\_current\_tau$    | $1$                    | $learning\_rule$             | $RSTDP$                    |
+| $tau\_input\_trace$        | $3$                    | $tau\_output\_trace$         | $2$                        |
+| $normalization$            | $ON$                   |                              |                            |
+
+**Table 2:** Experiment Parameters related to **bellow result**
+
+- Train:![RSTDP-14Iterations](./someResults/RSTDP-14Iterations.png)
+- Test:![RSTDP-14IterationsResult](./someResults/RSTDP-14IterationsResult.png)
   
   - learning policy is the number of sparks in the input time for each input.
 
