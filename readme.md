@@ -90,7 +90,7 @@ We repeat the experiments from the previous activity using this learning rule. W
 | $tau \; input \; trace$        | $10$                   | $tau \; output \; trace$         | $10$                       |
 | $normalization$            | $ON$                   |
 
-**Table 1:** Experiment Parameters related to **bellow result**
+**Table 1:** Experiment Parameters related to **result bellow**
 
 - Train:![RSTDP](./someResults/RSTDP.png)
 - Test:![RSTDPResult](./someResults/RSTDPResult.png)
@@ -110,7 +110,7 @@ We repeat the experiments from the previous activity using this learning rule. W
 | $tau \; input \; trace$        | $3$                    | $tau \; output \; trace$         | $2$                        |
 | $normalization$            | $ON$                   |                              |                            |
 
-**Table 2:** Experiment Parameters related to **bellow result**
+**Table 2:** Experiment Parameters related to **result bellow**
 
 - Train:![RSTDP-14Iterations](./someResults/RSTDP-14Iterations.png)
 - Test:![RSTDP-14IterationsResult](./someResults/RSTDP-14IterationsResult.png)
